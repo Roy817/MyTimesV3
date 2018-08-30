@@ -1,0 +1,195 @@
+/* AlGEMEEN */
+
+a {
+  color: black;
+}
+
+h2 {
+ font-family: Verdana;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  top: 120px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+.paragraaf {
+  margin: 10px;
+}
+
+.artikel .tekst-afbeelding {
+  height: 280px;
+  width: auto;
+  font-size: 30px;
+  align-items: center;
+}
+
+.tekst-afbeelding {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.grote-kolom {
+  width: 630px;
+}
+
+.middel-kolom{
+  width: 300px;
+}
+
+.kleine-kolom{
+  width: 240px;
+}
+
+.artikelen {
+  display: flex;
+}
+
+.artikel {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.koekje {
+  border: 1px solid black;
+  width: 240px;
+  height: auto;
+}
+
+.onderkant {
+  display: flex;
+  position: relative;
+  top: 100px;
+  border: 1px solid black;
+  margin: 15px;
+  height: 300px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid MediumAquamarine;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+
+}
+
+.logo span {
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.navigatie span {
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.navigatie {
+  margin-left: 800px;
+}
+
+/* BODY */
+
+.voorpagina {
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.tekst-afbeelding {
+  border: 1px solid black;
+}
+
+.tekst-afbeelding {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+  width: auto;
+  align-items: center;
+}
+
+.artikel1.tekst-afbeelding {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.artikel2.tekst-afbeelding {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.artikel3.tekst-afbeelding {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.nieuws h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nieuws-overzicht span {
+  width: 210px;
+  display: inline-block;
+  padding: 15px;
+  border-bottom: 1px solid darkgrey;
+
+}
+
+.koekje {
+  margin-top: 20px;
+}
+
+.nieuws-overzicht {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+/* FOOTER */
+
+.onderkant nav span {
+  padding: 20px;
+  align-content: center;
+}
+
+.bedrijfsnaam {
+  display: inline-block;
+  padding-right: 20px;
+  border-right: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.referentie {
+  display: flex;
+  align-content: center;
+}
